@@ -1,0 +1,59 @@
+h2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 8rem;
+}
+body {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  font-family: Silkscreen;
+  animation-name: anim;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes anim {
+  0% {
+    background-color: #ff0;
+  }
+  25% {
+    background-color: #f80;
+  }
+  50% {
+    background-color: #ff0000;
+  }
+  75% {
+    background-color: #00ff04;
+  }
+  100% {
+    background-color: #00eeff;
+  }
+}
+@font-face {
+  font-family: Silkscreen;
+  src: url("Silkscreen-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+ul {
+  margin-right: 3%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+footer {
+  margin-top: 4%;
+  background-size: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.volver {
+  color: black;
+  background-color: white;
+  font-family: Silkscreen;
+  text-decoration: none;
+  border-radius: 5px;
+}
